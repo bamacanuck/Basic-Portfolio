@@ -1,0 +1,70 @@
+h1 {
+	color: white;
+	font-size: 50px;
+	align-content: center;
+	margin-left: 100px;
+}
+
+header {
+	width: 80%
+	padding: 30px;
+	margin: 10px;
+	border-style: solid;
+	border-width: 1px;
+}
+
+/*header::after {
+	content:"";
+	display: block;
+	clear: both;
+}*/
+
+nav {
+	float: left;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	margin-left: 40px;
+}
+
+nav a {
+	color: #777777;
+	text-decoration: none;
+}
+
+nav li + li:before{
+    content: "|";
+    padding-right: 18px;
+    opacity: 0.4;
+}
+
+.container {
+	margin-left: 80px;
+	margin-right: 300px;
+	background: #4aaaa5;
+	margin: 0 auto;
+}
+
+.topNav {
+	font-size: 
+	color: #777777;
+}
+
+.floaters {
+	float: left;
+}
+
+#prettyBreak {
+	clear: both;
+}
+
+#about {
+	clear:both;
+}
