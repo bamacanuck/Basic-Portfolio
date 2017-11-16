@@ -23,6 +23,7 @@ footer {
 
 nav {
 	float: right;
+	margin-right: 40px;
 }
 
 nav ul {
@@ -41,6 +42,11 @@ nav a {
 	text-decoration: none;
 }
 
+p {
+	font-size: 20px;
+	float: left;
+}
+
 #topBig {
 	width: 1360px;
 	height: 90px;
@@ -52,7 +58,7 @@ nav a {
 	width: 250px;
 	height: 50px;
 	background-color: teal;
-	margin-left: 200px;
+	margin-left: 158px;
 	font-size: 40px;
 	color: white;
 	text-align: center;
@@ -62,26 +68,26 @@ nav a {
 #aboutBlock {
 	position: relative;
 	float: left;
-	margin-top: 30px; 
-	margin-left: 140px;
-	width: 600px;
-	height: 500px;
+	margin-top: 40px; 
+	margin-left: 158px;
+	width: 650px;
+	height: 480px;
 	background-color: white;
 }
 
 #connectBlock {
 	float: left;
-	margin: 30px 50px 100px 60px; 
-	/*margin-right: 20px;*/
-	width: 300px;
+	margin: 40px 50px 100px 44px; 
+	width: 270px;
 	height: 200px;
 	background-color: white;
 }
 
 #about {
 	font-size: 24px;
+	font-weight: 1000;
 	color: #4aaaa5;
-	margin: 10px;
+	margin: 20px;
 }
 
 /*#back {
@@ -99,22 +105,18 @@ nav a {
   clear: both;
 }
 
-#blueDivider {
-	height: 6px;
+#tealDivider {
+	height: 10px;
 	width: 1360px;
 	background-color: #4aaaa5;
-}
-
-#about {
-	height: 479px; 
-	width: 648px;
 }
 
 #connect {
 	float: left;
 	font-size: 24px;
+	font-weight: 1000;
 	color: #4aaaa5;
-	margin: 10px;
+	margin: 20px;
 }
 
 #aboutLine {
@@ -123,4 +125,20 @@ nav a {
 	margin: 10px;
 	background-color: gray;
 	opacity: 0.4;
+}
+
+#connectLine {
+	width: 260px;
+	height: 2px;
+	margin: 20px;
+	background-color: gray;
+	opacity: 0.4;
+}
+
+#catPic {
+	float: left;
+}
+
+#iconList {
+	margin-left: 40px;
 }
