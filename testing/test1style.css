@@ -1,0 +1,14 @@
+
+#bigger {
+	width: 800px;
+	height: 500px;
+	background-color: blue;
+}
+
+#smaller {
+	position: absolute;
+	width: 300px;
+	height: 240px;
+	background-color: red;
+	margin: 30px;
+}
