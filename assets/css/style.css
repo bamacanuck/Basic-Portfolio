@@ -83,6 +83,26 @@ p {
 	background-color: white;
 }
 
+#contactBlock {
+	position: relative;
+	float: left;
+	margin-top: 40px; 
+	margin-left: 158px;
+	width: 650px;
+	height: 480px;
+	background-color: white;
+}
+
+#portfolioBlock {
+	position: relative;
+	float: left;
+	margin-top: 40px; 
+	margin-left: 158px;
+	width: 650px;
+	height: 480px;
+	background-color: white;	
+}
+
 #about {
 	font-size: 24px;
 	font-weight: 1000;
@@ -119,7 +139,7 @@ p {
 	margin: 20px;
 }
 
-#aboutLine {
+#bigMidLine {
 	width: 560px;
 	height: 2px;
 	margin: 10px;
