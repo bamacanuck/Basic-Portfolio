@@ -68,6 +68,8 @@ h1 {
 	padding-top: 20px;
 }
 
+/* I realize I likely have a conflict with h1 tagging, but time runs short. */
+
 #topBig {
 	width: 960px;
 	height: 80px;
@@ -121,24 +123,6 @@ h1 {
 	background-color: white;	
 }
 
-.about {
-	font-size: 28px;
-	font-weight: 900;
-	color: #4aaaa5;
-	margin: 20px;
-	padding-bottom: -10px;
-}
-
-.container {
-	background: #4aaaa5;
-}
-
-.group:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 #tealDivider {
 	height: 10px;
 	width: 960px;
@@ -156,7 +140,8 @@ h1 {
 #bigMidLine {
 	width: 600px;
 	height: 2px;
-	margin: 10px 10px 20px 20px;
+	margin-left: 1%;
+	margin-right: 1%; 
 	background-color: #777777;
 	opacity: 0.4;
 }
@@ -178,7 +163,7 @@ h1 {
 }
 
 #spacer-portfolio {
-	margin-bottom: 920px;
+	margin-bottom: 1000px;
 }
 
 #catPic {
@@ -188,6 +173,84 @@ h1 {
 
 #iconList {
 	margin-left: 10px;
+}
+
+#outContainer {
+	position: relative;
+	float: left;
+	margin-top: 40px;
+	width: 650px;
+    height: 800px;
+	background-color:white;
+}
+
+#topLeft {
+    margin: 20px 20px 20px 20px;
+}
+
+#topRight {
+    margin: 20px 20px 20px 20px;
+}
+
+#bottomLeft {
+    margin: 20px 20px 20px 20px;
+}
+
+#bottomRight {
+    margin: 20px 20px 20px 20px;
+}
+
+#veryBottom {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.main {
+	font-size: 28px;
+	font-weight: 900;
+	color: #4aaaa5;
+	margin: 20px;
+	padding-bottom: -10px;
+}
+
+.container {
+	background: #4aaaa5;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.inContainer {
+    width: 650px;
+    height: 280px;   
+}
+
+
+
+div.gallery {
+    margin: 5px;
+    border: 1px;
+    float: left;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.picLabel {
+	background-color: #4aaaa5;
+	width: 280px;
+	height: 40px;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 input[type=text], select, textarea {
@@ -212,62 +275,4 @@ input[type=submit] {
 
 input[type=submit]:hover {
     background-color: #FF0000;
-}
-
-.container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-}
-
-#outContainer {
-	position: relative;
-	float: left;
-	margin-top: 40px;
-	width: 650px;
-    height: 800px;
-	background-color:white;
-}
-
-.inContainer {
-    width: 650px;
-    height: 280px;   
-}
-
-#topLeft {
-    margin: 20px 20px 20px 20px;
-}
-
-#topRight {
-    margin: 20px 20px 20px 20px;
-}
-
-#bottomLeft {
-    margin: 20px 20px 20px 20px;
-}
-
-#bottomRight {
-    margin: 20px 20px 20px 20px;
-}
-
-#veryBottom {
-    margin-top: 20px;
-    margin-left: 20px;
-}
-
-div.gallery {
-    margin: 5px;
-    border: 1px;
-    float: left;
-}
-
-div.gallery img {
-    width: 100%;
-    height: auto;
-}
-
-.picLabel {
-	background-color: #4aaaa5;
-	width: 280px;
-	height: 40px;
 }
