@@ -7,14 +7,14 @@ header {
 	margin: 0;
 	padding: 0;
 	width: 960px;
-	height: 100px;
+	height: auto;
 	border-bottom: 1px solid gray;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 footer {
 	width: 960px;
-	height: 100px;
+	height: 70px;
 	background-color: #666666;
 	text-align: center;
 	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -270,5 +270,4 @@ div.gallery img {
 	background-color: #4aaaa5;
 	width: 280px;
 	height: 40px;
-	margin-block-end: 10px;
 }
